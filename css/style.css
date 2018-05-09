@@ -1,29 +1,32 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: white;
+  color: black;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #088da5;
   float: left;
   position: fixed;
   width: 100%;
+  font-weight: 700;
 }
+a {
+  text-decoration: none;
+}
+a:link { color:black; } /* unvisited */
+a:hover { color:white; } /* mouse over */
 
 .logo {
   margin: 20px;
   width: 100px;
 }
 
-.large-pic {
-  width: 100%;
-}
-
 .medium-pic {
-  width: 70%;
+margin-bottom: 5px;
+  width: 75%;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
 }
@@ -49,4 +52,31 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+body {
+  font-size: 16px;
+}
+figcaption {
+  font-size: 1em;
+  font-weight: 100;
+  color: #808080;
+}
+h1 {
+  font-size: 2em; /* 48px */
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 1em;
+  line-height: 1.5;
+}
+.story-text {
+  font-size: 1.2em; /* 32px */
+  line-height: 1.5;
+}
+.author {
+  line-height: 2.5;
+
+
 }
